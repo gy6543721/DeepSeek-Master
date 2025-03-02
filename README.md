@@ -10,7 +10,7 @@ Set up the required dependencies using a conda environment:
 pip install openai  
 ```  
 
-Configure the DeepSeek official API key by setting the `API_KEY` variable in `llm_client.py`.  
+Configure the [DeepSeek official API key](https://platform.deepseek.com/api_keys) by setting the `API_KEY` variable in `llm_client.py`.  
 
 In the main program `main.py`, populate the `topics` variable with one or more questions in list format, then run the following command:  
 

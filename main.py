@@ -72,8 +72,8 @@ def run_answer_anything_system(full_topic):
 
 if __name__ == "__main__":
     topics = [
-        "問題1",
-        "問題2"
+        "AI是否會取代人類的工作？",
+        "地球是不是平的？"
     ]
     
     final_output_file = "output/final_answers.txt"
@@ -88,3 +88,4 @@ if __name__ == "__main__":
             print("=" * 50)
     
     print(f"所有歷史已保存至 {final_output_file}")
+    
